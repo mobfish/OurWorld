@@ -7,9 +7,9 @@ public class Human extends Organism{
 
 	private String name;
 	private Date bDay;
-	private long hight;
+	private double hight;
 	
-	public Human(String name,long hight){
+	public Human(String name,double hight){
 	 this.bDay = Calendar.getInstance().getTime();
 	 this.hight = hight;
 	}
