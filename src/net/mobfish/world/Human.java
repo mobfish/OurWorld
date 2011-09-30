@@ -34,4 +34,9 @@ public class Human extends Organism{
 		hight += growth;
 	}
 
+	@Override
+	public String getBiologicalName() {
+		return "Ich bin ein Mensch :D";
+	}
+
 }
