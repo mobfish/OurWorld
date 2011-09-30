@@ -16,4 +16,6 @@ public abstract class Organism {
 		alive = !alive;
 	}
 	
+	public abstract String getBiologicalName();
+	
 }
