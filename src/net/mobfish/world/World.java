@@ -2,6 +2,7 @@ package net.mobfish.world;
 
 import java.util.LinkedList;
 
+//We are the world, we are the children
 public class World {
 	LinkedList<Organism> objs=new LinkedList<Organism>();
 	public static void main(String[] args){
@@ -19,3 +20,5 @@ public class World {
 	
 
 }
+
+//SING SING
