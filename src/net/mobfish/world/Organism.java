@@ -14,8 +14,14 @@ public abstract class Organism {
 	
 	public void kill(){
 		alive = !alive;
-	}
+	}	
 	
-	public abstract String getBiologicalName();
+	public abstract String getBiologicalName();	
+	
+	
+	@Override
+	public String toString(){
+		return "I am an organism. Am I alive? " +alive;
+	}
 	
 }
