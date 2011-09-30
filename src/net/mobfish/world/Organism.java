@@ -16,4 +16,9 @@ public abstract class Organism {
 		alive = !alive;
 	}
 	
+	@Override
+	public String toString(){
+		return "I am an organism. Am I alive? " +alive;
+	}
+	
 }
