@@ -34,4 +34,10 @@ public class Human extends Organism{
 		hight += growth;
 	}
 
+	@Override
+	public String getBiologicalName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
