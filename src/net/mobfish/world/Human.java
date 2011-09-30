@@ -36,8 +36,7 @@ public class Human extends Organism{
 
 	@Override
 	public String getBiologicalName() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Ich bin ein Mensch :D";
 	}
-
+	
 }
